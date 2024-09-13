@@ -17,3 +17,27 @@
 
 * [E30 Zone Wiki](https://www.e30zone.net/e30wiki/index.php?title=Main_Page)
 * [ECU Pinouts E30 Wiki](https://www.e30zone.net/e30wiki/index.php/ECU_Pinouts)
+* [ECU Siemens MS43 Pinout](https://www.ms4x.net/index.php?title=Siemens_MS43_Pinout)
+* [Схема электрооборудования E34](https://www.drive2.ru/l/602621433536844026/)
+* https://www.drive2.ru/l/3647151/
+
+
+#### X60003
+| № | Тип | Название | Сечение | Цвет | Описание | Компонент |
+|:-:|:---:|:--------:|:-------:|:----:|:---------|:----------|
+|  7 | Output | U_DKG | 0.50 | BR/WS | [+5V] Voltage Supply Electric Throttle Body | Electric Throttle Body |
+| 10 | Input | A_DKG2 | 0.50 | BR/BL | [0-5V] Signal Electric Throttle Body Potentiometer 2 | Electric Throttle Body |
+| 19 | Input | A_DKG1 | 0.50 | BR/VI | [0-5V] Signal Electric Throttle Body Potentiometer 1 | Electric Throttle Body |
+| 20 | Ground | M_DKG | 0.50 | BR/GR | Electric Throttle Body | Electric Throttle Body |
+| 43 | Output | T_MDK1 | 0.75 | GR/WS | [H-Bridge] Electric Throttle Body Actuator 1 | Electric Throttle Body |
+| 44 | Output | T_MDK2 | 0.75 | BR/SW | [H-Bridge] Electric Throttle Body Actuator 2 | Electric Throttle Body |
+
+#### X60004
+| № | Тип | Название | Сечение | Цвет | Описание | Компонент |
+|:-:|:---:|:--------:|:-------:|:----:|:---------|:----------|
+| 7 | Ground | M_FWG1 | 0.35 | BR/GN | Pedal Value Sensor | Accelerator Pedal |
+| 8 | Input | A_FWG1 | 0.35 | WS | [0-5V] Signal Pedal Value Sensor 1 | Accelerator Pedal |
+| 9 | Output | U_FWG1 | 0.35 | GE | [+5V] Supply Voltage 1 Pedal Value Sensor | Accelerator Pedal |
+| 12 | Ground | M_FWG2 | 0.35 | BR | Pedal Value Sensor | Accelerator Pedal |
+| 13 | Input | A_FWG2 | 0.35 | WS/GN | [0-5V] Signal Pedal Value Sensor 2 | Accelerator Pedal |
+| 14 | Output | U_FWG2 | 0.35 | GE/GN | [+5V] Supply Voltage 2 Pedal Value Sensor | Accelerator Pedal|
