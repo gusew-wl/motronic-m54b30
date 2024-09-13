@@ -31,6 +31,8 @@
 | 20 | Ground | M_DKG | 0.50 | BR/GR | Electric Throttle Body | Electric Throttle Body |
 | 43 | Output | T_MDK1 | 0.75 | GR/WS | [H-Bridge] Electric Throttle Body Actuator 1 | Electric Throttle Body |
 | 44 | Output | T_MDK2 | 0.75 | BR/SW | [H-Bridge] Electric Throttle Body Actuator 2 | Electric Throttle Body |
+| 46 | Output | T_LLFSS | 0.50 | WS/GN | [H-Bridge] Idle Speed Actuator Closing Coil | Idle Speed Actuator |
+| 47 | Output | T_LLFSO | 0.50 | WS/GE | [H-Bridge] Idle Speed Actuator Opening Coil | Idle Speed Actuator |
 
 #### X60004
 | № | Тип | Название | Сечение | Цвет | Описание | Компонент |
